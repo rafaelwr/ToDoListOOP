@@ -103,3 +103,25 @@ h2 {
 #empty-tasks {
 	text-align: center;
 }
+
+/* mobile */
+@media(max-width: 480px){
+
+    body {
+        padding: 20px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #main-container {
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .fa.fa-trash {
+        display: block;
+    }
+
+}
